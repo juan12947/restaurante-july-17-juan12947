@@ -1,6 +1,6 @@
 /*FONTS*/
 <style>
-@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Lato:300|Lobster');
 </style>
 /*HEADER STYLES*/
 .navbar-inverse {
@@ -92,4 +92,39 @@ button.btn-warning:hover {
   z-index: 0;
   color: rgba(51, 51, 51, 0.2);
   font-size: 170px;
+}
+
+#review {
+  background-image: url('../img/food_review.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 450px;
+}
+
+
+.flex {
+  display: flex;
+  align-items: center;
+  height: 450px;
+}
+
+.fresno-bee {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+}
+
+.fresno-bee h1 {
+  font-family: 'lobster', cursive;
+  color: #F8512F;
+  text-shadow: 1px 1px 2px #333;
+  font-size: 60px;
+}
+.fresno-bee p {
+  color: #fff;
+  font-size: 26px;
+  line-height: 36px;
+  font-family: 'lato', sans-serif;
+  text-shadow: 1px 1px 2px #333;
+  font-weight: 300;
 }
