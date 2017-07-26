@@ -1,3 +1,7 @@
+/*FONTS*/
+<style>
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+</style>
 /*HEADER STYLES*/
 .navbar-inverse {
   background-color: transparent;
@@ -60,4 +64,32 @@ button.btn-warning {
 button.btn-warning:hover {
   background-color: #D34326;
   border-color: #D34326;
+}
+
+/*Our Story Styles*/
+.lobster-text {
+  font-family: 'lobster', cursive;
+}
+
+#our-story {
+  margin: 10% auto;
+}
+
+#our-story .lobster-text {
+  color: #F8512F;
+  text-shadow: 1px 1px 2px #313;
+  font-size: 5em;
+}
+
+#our-story h3{
+  margin-top: 0px
+}
+
+.year-text {
+  font-family: 'playfair dis``play', serif;
+  font-weight: 900;
+  position: absolute;
+  z-index: 0;
+  color: rgba(51, 51, 51, 0.2);
+  font-size: 170px;
 }
